@@ -1,0 +1,28 @@
+var itemLink = element(by.css('[ng-href="/products/girls-ruffle-neck-woven-blouse/id_303216?sku_0=::LBL"]'));
+
+		expect(browser.isElementPresent(itemLink)).toBe(true);
+		browser.wait(EC.elementToBeClickable(itemLink), 10000).then(function(){
+   			itemLink.click();		
+		});
+		
+		browser.sleep(20000);
+
+//Select Sale Items
+		var selectSale = element(By.css('[aria-label="sale "]'));
+		browser.wait(EC.elementToBeClickable(selectSale), 10000).then(function(){
+   			selectSale.click();		
+		}).then(function(){
+			console.log("Correctly located sale items.");
+		});
+		
+		browser.sleep(15000);
+
+//Select Sale Items
+		var selectSale = element(By.css('[aria-label="sale "]'));
+		browser.wait(EC.elementToBeClickable(selectSale), 10000).then(function(){
+   			selectSale.click();		
+		}).then(function(){
+			console.log("Correctly located sale items.");
+		});
+		
+		browser.sleep(15000);
