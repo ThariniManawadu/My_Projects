@@ -1,0 +1,2 @@
+Name, Author, URL, License type
+Berkshire Swash, Astigmatic, https://fonts.google.com/specimen/Berkshire+Swash, Open Font License

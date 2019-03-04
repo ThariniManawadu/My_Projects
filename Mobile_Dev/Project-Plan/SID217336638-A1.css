@@ -1,0 +1,72 @@
+/*CSS Code that applies for whole document*/
+
+body{
+  border-width:20px;
+  border-style:hidden;
+  margin: 20px;
+  font-family: Calibri;
+}
+
+
+div p{
+  text-align: justify;
+  font-size: 16px;
+}
+
+ul{
+  list-style-type: disc;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th{
+  border: 0.5mm solid black;
+  padding: 5px;
+  margin: 5px;
+}
+
+.interface_table{
+  border-style:hidden;
+}
+
+.sub_catergories{
+  background-color: #e6ffe6;
+  border: 2px outset;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.page-wrap {
+    overflow: hidden;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.keep_space{
+  margin: 15px;
+}
+
+.image{
+  border: 0.4mm solid black;
+  border-radius: 15px;
+}
+
+.matlab_image{
+  height: 300px;
+  width: 300px;
+}
+
+.design{
+  height: 400px;
+  width: 200px;
+  border: 0.4mm solid black;
+  border-radius: 15px;
+  text-align: left;
+}
+
+.center{
+  text-align: center;
+}

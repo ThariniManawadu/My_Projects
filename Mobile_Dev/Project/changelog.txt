@@ -1,0 +1,12 @@
+Day 1 (20th March 2018): Created the folder structure of the project. Started project coding on index.html page.
+Day 2 (21st March 2018): Started design the front page (Welcome page).
+Day 3 (23rd March 2018): Designed the welcome page.
+Day 4 (25th March 2018): Matched colors for the application.
+Day 5 (29th March 2018): Working on App's background image creation.
+Day 6 (01st April 2018): Create animated front page.
+Day 7 (04th April 2018): Changed all created HTML elements in HTML page to JavaScript created elements.
+                         Working on page navigation from front page to select category page.
+                         Working on front page event handlers.
+                         Event handlers for start button.
+                         Event Handlers for exit button.
+Day 8 (05th April 2018): Generate and design select category page.

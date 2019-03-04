@@ -1,0 +1,66 @@
+/*CSS Code that applies for whole game design*/
+
+@font-face {
+  font-family: 'Berkshire Swash';
+  src: url('../fonts/BerkshireSwash-Regular.ttf');
+}
+
+
+body{
+  background: url("../images/My_Post.jpg") no-repeat center center fixed;
+  font-family: "Berkshire Swash",cursive,sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+h1{
+  font-size: 90px;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+h3{
+  font-size: 60px;
+}
+
+div.fixed {
+    /*position: fixed;*/
+    bottom: 600px;
+    left: 30px;
+    right: 30px;
+    color: #201858;
+}
+
+.image{
+  border: 0.4mm solid black;
+  border-radius: 15px;
+}
+
+.button {
+    height: 120px;
+    width: 360px;
+    background-color: #847EB1;
+    border: none;
+    border-radius: 15px;
+    color: #201858;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 80px;
+    margin: 10px;
+    cursor: pointer;
+    font-family: "Berkshire Swash",cursive,sans-serif;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
