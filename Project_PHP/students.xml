@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<studentlist>
+  <student>
+    <student_id email="tmanawad@deakin.edu.au">217336638</student_id>
+    <lastname>Manawadu</lastname>
+    <firstname>Tharini</firstname>
+    <address>29 Lynch Street, Hawthorn VIC</address>
+  </student>
+  <student>
+    <student_id email="thilinasasa@deakin.edu.au">217522488</student_id>
+    <lastname>Chandraprema</lastname>
+    <firstname>Thilina</firstname>
+    <address>109 Burwood Road, Hawthorn VIC</address>
+  </student>
+  <student>
+    <student_id email="anabella@deakin.edu.au">217200539</student_id>
+    <lastname>Christian</lastname>
+    <firstname>Anabella</firstname>
+    <address>70 Clarke Street, South Melbourne VIC</address>
+  </student>
+  <student>
+    <student_id email="davids@deakin.edu.au">217345895</student_id>
+    <lastname>Wanor</lastname>
+    <firstname>David</firstname>
+    <address>16 Russell Street, Melbourne VIC</address>
+  </student>
+  <student>
+    <student_id email="kamalesh@deakin.edu.au">217699477</student_id>
+    <lastname>Beckham</lastname>
+    <firstname>Kamalesh</firstname>
+    <address>2 Park Street, South Yarra VIC</address>
+  </student>
+  <student>
+    <student_id email="afkar@deakin.edu.au">217699455</student_id>
+    <lastname>Mohommad</lastname>
+    <firstname>Afkar</firstname>
+    <address>67 Box Street, Doveton VIC</address>
+  </student>
+  <student>
+    <student_id email="navindug@deakin.edu.au">217699471</student_id>
+    <lastname>Gunasekara</lastname>
+    <firstname>Navindu</firstname>
+    <address>565 Clayton Road, Clarinda VIC</address>
+  </student>
+  <student>
+    <student_id email="adithya@deakin.edu.au">217699437</student_id>
+    <lastname>Begam</lastname>
+    <firstname>Adithya</firstname>
+    <address>5 Davidson Street, Springvale VIC</address>
+  </student>
+  <student>
+    <student_id email="dineth@deakin.edu.au">217699415</student_id>
+    <lastname>Kunal</lastname>
+    <firstname>Dineth</firstname>
+    <address>70 Wellington Road, Clayton VIC</address>
+  </student>
+  <student>
+    <student_id email="hasitha@deakin.edu.au">217699418</student_id>
+    <lastname>Udayangi</lastname>
+    <firstname>Hasitha</firstname>
+    <address>22 Waverley Road, Chadstone VIC</address>
+  </student>
+  <student>
+    <student_id email="john@deakin.edu.au">217699412</student_id>
+    <lastname>Lennel</lastname>
+    <firstname>John</firstname>
+    <address>34 High Street, Glen Iris VIC</address>
+  </student>
+  <student>
+    <student_id email="amyh@deakin.edu.au">217699498</student_id>
+    <lastname>Halllum</lastname>
+    <firstname>Amy</firstname>
+    <address>8 Highbury Road, Burwood VIC</address>
+  </student>
+  <student>
+    <student_id email="sashini@deakin.edu.au">217699489</student_id>
+    <lastname>Chandraprema</lastname>
+    <firstname>Sashini</firstname>
+    <address>675 Princes Highway, Malvern VIC</address>
+  </student>
+  <student>
+    <student_id email="alex@deakin.edu.au">214562345</student_id>
+    <lastname>Alex</lastname>
+    <firstname>Bratt</firstname>
+    <address>484 Auburn Road, Hawthorn VIC</address>
+  </student>
+  <student>
+    <student_id email="kasun@deakin.edu.au">215673245</student_id>
+    <lastname>Kasun</lastname>
+    <firstname>Pathirana</firstname>
+    <address>34-60 Little Collins Street, Melbourne VIC</address>
+  </student>
+  <student>
+    <student_id email="colling@gmail.com">213465871</student_id>
+    <lastname>Colling</lastname>
+    <firstname>Shell</firstname>
+    <address>303 Swanston Street, Melbourne VIC</address>
+  </student>
+</studentlist>

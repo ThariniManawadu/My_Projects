@@ -1,0 +1,70 @@
+<html>
+    <head>
+      <title>Assignment 2</title>
+      <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    </head>
+  
+    <body>
+  
+      <div class="center">
+        <header>SIT780 - Enterprise Applications Development</header>
+      </div>
+  
+        <div class="page-wrap">
+            <article role="main">
+                <div class="sub_catergories">
+                    <div class="application">
+                        <table class="interface_table">
+                            <tr class="interface_table">
+                            <td class="interface_table">
+                            <a class="lnk-menu" href="index.html" title="homepage">Home</a><br />
+                            <form id="loginForm" action="validate.php" method="post">
+                                    <table class="interface_table">
+                                            <tr class="interface_table">
+                                                <td class="interface_table"><span>User Name</span></td>
+                                                <td><input type="text" name="userName" value="admin"></td>
+                                            </tr>
+                                            <tr class="interface_table">
+                                                <td class="interface_table"><span>Password</span></td>
+                                                <td><input type="password" name="password" value="SIT780" ></td>
+                                            </tr>
+                                            <tr class="interface_table">
+                                                <td class="interface_table"></td>
+                                                <td><img src="captcha.php>" id='captchaimg'></td>
+                                            </tr>
+                                            <tr class="interface_table">
+                                                <td class="interface_table"><span>Captcha String</span></td>
+                                                <td><input name="captcha" type="text"></td>
+                                            </tr>
+                                            <tr class="interface_table">
+                                                <td class="interface_table"></td>
+                                                <td><input class="mediumButton" type="submit" value="Log In" id="login"></td>
+                                            </tr>
+                                            <tr class="interface_table">
+                                                    <td class="interface_table"><span>for guest access:</span></td>
+                                                    <td><span>User Name:guest</br> Password:SIT780</span></td>
+                                            </tr>
+                                    </table>
+                            </form>
+                        </td>
+                        
+                        <td class="interface_table">
+                                <h1>Access limited</h1>
+                                <h3>This function is available for authorized users only.</h3>        
+                                <h3>You must log in first before using.</h3> 
+                        </td>
+                        </tr>
+                        </table>
+
+                    </div>
+                    
+               
+                </div>
+            </article>
+        </div>
+        <div class="center">
+                <footer>Tharini Hasara Manawadu De Silva SID: 217336638 <br> Copyright &copy 2018 All Right Reserved.</footer>
+        </div>
+    </body>
+</html>
+

@@ -1,0 +1,216 @@
+/*CSS Code that applies for whole document*/
+
+body{
+    border-width:20px;
+    border-style:hidden;
+    margin: 20px;
+    text-align: center;
+}
+  
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #003333;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #003333;
+}
+  
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #003333;
+    font-weight: bold;
+}
+  
+header,footer{
+    width: 90%;
+    display: inline-block;
+    border: 2px outset;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-group-vertical>.btn-group:first-child:not(:last-child)>.btn:last-child, .btn-group-vertical>.btn-group:first-child:not(:last-child)>.dropdown-toggle {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.btn-group-vertical>.btn, .btn-group-vertical>.btn-group, .btn-group-vertical>.btn-group>.btn {
+    display: block;
+    float: none;
+    width: 90%;
+    max-width: 100%;
+}
+
+.btn-group-vertical>.btn-group>.btn {
+    float: none;
+}
+
+.btn-group>.btn:first-child {
+    margin-left: 0;
+}
+
+.btn-group>.btn, .btn-group-vertical>.btn {
+    position: relative;
+    float: left;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input, button, select, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: inherit;
+    line-height: inherit;
+    width: 220px;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button {
+    overflow: visible;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th{
+  border: 0.5mm solid black;
+  padding: 2px;
+  margin: 2px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width:100%;
+  white-space:nowrap;
+}
+
+th{
+    background-color: #4CAF50;
+}
+
+.interface_table{
+  border-style:hidden;
+  padding: 10px;
+  margin: 10px;
+}
+
+span{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px;
+    color: #10621E;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lnk-menu{
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    margin: 5px;
+    color: #10621E;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  
+.sub_catergories{
+    background-color: #e6ffe6;
+    border: 2px outset;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+  
+.mediumButton{
+     height: 30px;
+     width: 100px;
+     background-color: #407F7F;
+     border: 1px solid #003333;
+     border-radius: 5px;
+     padding: 2px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     margin: 5px;
+     cursor: pointer;
+     font: Georgia, serif;
+}
+  
+.inputText{
+     height: 30px;
+     width: 250px;
+     font-size: 15px;
+     margin: 5px;
+     padding: 2px;
+}
+  
+.page-wrap {
+      overflow: hidden;
+      width: 75%;
+      margin: 0 auto;
+}
+  
+.center{
+    text-align: center;
+}
+
+.application{
+    display: grid;
+}
+
+.search{
+    border: 0.5px solid black;
+    text-align: center;
+}
+  
