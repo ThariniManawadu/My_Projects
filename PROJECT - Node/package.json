@@ -1,0 +1,14 @@
+{
+  "name": "my_web",
+  "version": "1.0.0",
+  "description": "Web application for Serene Beach hotel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tharini Manawadu",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^4.0.2"
+  }
+}

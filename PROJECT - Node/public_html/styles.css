@@ -1,0 +1,138 @@
+body {
+  background-image: url("images/back_ground.jpg");
+  background-color: #cccccc;
+}
+
+h1,h2,h3{
+  color: #1c3d72;
+}
+
+p{
+  color: #22509b;
+  font-weight: bold;
+}
+
+.promo{
+  color: #22509b;
+  font-weight: bold;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.high{
+  font-weight: bold;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #1c3d72;
+}
+
+label{
+  color: #22509b;
+}
+
+address{
+  color: #22509b;
+  font-weight: bold;
+}
+
+em{
+  color: red;
+  font-weight: bold;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+                
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+                
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:200px;
+  max-height: 500px;
+}            
+            
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+.carousel-caption {
+  display: none; 
+  }
+}
+
+.nav>a{
+    position:relative;
+} 
+
+.item{
+  position:relative;
+}
+
+#logo-image{
+  position:absolute;
+  z-index:10;
+  display:block;
+  background: url(images/Logo_Project.jpg) no-repeat;
+  width: 150px; 
+  height:150px; 
+}
+
+#acco-image{
+  /*position:absolute;
+  z-index:10;*/
+  display:block;
+  background: url(images/acco-home.jpg) no-repeat;
+  width: 250px; 
+  height:182px; 
+}
+
+#dine-image{
+  /*position:absolute;
+  z-index:10;*/
+  display:block;
+  background: url(images/dine-home.jpg) no-repeat;
+  width: 250px; 
+  height:182px; 
+}
+
+#wedding-image{
+/*position:absolute;
+z-index:10;*/
+  display:block;
+  background: url(images/wedding-home.jpg) no-repeat;
+  width: 250px; 
+  height:182px; 
+}
+
+.navbar-inverse {
+  background-color:#1c3d72;
+  border-color:#2a384f;
+  background-size: cover;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: #22509b;
+}
+
+.page-footer{
+    background-color: #22509b;
+    color: #f2f2f2;
+}
+
+.page-footer a{
+                  color: #9d9d9d;
+}

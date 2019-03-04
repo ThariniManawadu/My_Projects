@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Things To Do</title>
+        <meta name="author" content="Tharini Hasara Manawadu De Silva">
+        <meta name="description" content="My favourite Places">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!--link external syle sheet-->
+        <link rel="stylesheet" href="styles.css">
+
+    <body>
+       <main>
+          <div class="container">
+              <br>
+              <div class="col-xs-6 col-md-8">
+                  <a href="home.html" id="logo-image"></a>
+              </div>
+              <form action="" method="GET"> 
+                <div class="row">
+                  <div class="col-xs-6 col-md-4">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Search" id="txtSearch"/>
+                      <div class="input-group-btn">
+                        <button class="btn btn-primary" type="submit">
+                          <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <br>
+              <nav class="navbar navbar-inverse">
+                  <div class="container-fluid">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                      </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                      <ul class="nav navbar-nav navbar-right">
+                          <ul class="nav navbar-nav">
+                            <li><a href="aboutUs.html">About Us</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="services.html">Service
+                                <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="accomodation.html">Accomodation</a></li>
+                                  <li><a href="dineIn.html">Dine In</a></li>
+                                  <li><a href="weddings.html">weddings</a></li>
+                                </ul>
+                            </li>
+                            <li class="active"><a href="thingsToDo.html">Things To Do</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="news.html">News
+                                <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="promotions.html">Promotions</a></li>
+                                  <li><a href="events.html">Events</a></li>
+                                  <li><a href="socialMedia.html">Social Media</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contactUs.html">Contact Us</a></li>
+                          </ul>
+                      </ul>
+                    </div>
+                  </div>
+              </nav>
+                
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                      <li data-target="#myCarousel" data-slide-to="3"></li>
+                      <li data-target="#myCarousel" data-slide-to="4"></li>
+                    </ol>
+                
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                        <img src="images/carousel_image_1.jpg" alt="Image">
+                        <div class="carousel-caption">
+                          <h3>Visualize the amazed paradise</h3>
+                          <p>at Hikkaduwa</p>
+                        </div>      
+                      </div>
+                
+                      <div class="item">
+                        <img src="images/carousel_image_2.jpg" alt="Image">
+                        <div class="carousel-caption">
+                          <h3>Experience the indulgence</h3>
+                          <p>at Serene Beach</p>
+                        </div>      
+                      </div>
+
+                      <div class="item">
+                          <img src="images/carousel_image_3.jpg" alt="Image">
+                          <div class="carousel-caption">
+                            <h3>Relax, Rejoin and Regain</h3>
+                            <p>your comfort</p>
+                          </div>      
+                      </div>
+                      
+  
+                      <div class="item">
+                          <img src="images/carousel_image_4.jpg" alt="Image">
+                          <div class="carousel-caption">
+                            <h3>Memorizing beach and Luxury accomodation</h3>
+                            <p>to pamper yourself</p>
+                          </div>      
+                      </div>
+
+                      <div class="item">
+                        <img src="images/carousel_image_5.jpg" alt="Image">
+                        <div class="carousel-caption">
+                          <h3>The art of indulging</h3>
+                          <p>the serenity</p>
+                      </div>      
+                    </div>
+                      
+                    </div>
+
+                
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                  
+                <br>
+                <div class="container text-justify">    
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h2 id="surfingTittle">Surfing</h2>
+                      <p>Sri Lanka is acclaimed as one of the most secure goal for surfing at unswerving Indian Ocean swell. Hikkaduwa offers bundles for surfing for each one even you are amateur or an all around gifted individual for surfing, Hikkaduwa mind rave shoreline is only 1Km far from the inn. Visitors have the advantage of leasing a board from one of those numerous street side shops and appreciate the impeccableness of sun set skyline with a striking knowledge.</p>
+                      </div>
+                      <div class="col-md-6">
+                      <img class="center-image" src="images/surfing.jpg" alt="Surfing">
+                    </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-6">
+                        <img id="divingImage" class="center-image" src="images/diving.jpg" alt="diving">
+                      </div>
+                      <div class="col-md-6">
+                        <h2 id="divingTittle">Diving</h2>
+                        <p>Hikkaduwa is skilled with the most acclaimed coral haven of Sri Lanka, our visitors will have the solace of encountering a jumping ride to the statuary at supervision with our very much experienced teachers. The inns incorporate a plunging school situated inside the premises, and offers both PADI and UDI affirmations. Encountering the miracles of the shocking coral reefs and the wrecks situated in Hikkaduwa with wellbeing confirmation</p>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-6">
+                        <h2 id="coralTittle">Coral Reefs</h2>
+                        <p>Hikkaduwa has for long been the focal point of sun, sand and surf in Sri Lanka and from the beginning of tourism has been a prevalent stop for voyagers going along the palm lined southwest drift. A noteworthy fascination in Hikkaduwa is its coral reefs and, throughout the years, the nearness of the reefs has built up the town's notoriety for being a goal for swimming and scuba jumping.</P>
+                      </div>
+                      <div class="col-md-6">
+                        <img class="center-image" src="images/coral-reef.jpg" alt="Coral Reefs">
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-6">
+                        <img class="center-image" src="images/fort.jpg" alt="Galle Fort">
+                      </div>
+                      <div class="col-md-6">
+                        <h2 id="fortTittle">Galle Fort</h2>
+                        <p>Lounging on the southern bank of Sri Lanka in the straight of Galle, the Fort was first worked by the Portuguese in 1588 preceding being broadly braced by the Dutch in the mid 1600s. Perceived by UNESCO for its social legacy esteem, the Fort was announced a World Heritage Site in 1988 as a remarkable piece of "a urban group which shows the cooperation of European engineering and South Asian conventions from the sixteenth to the nineteenth hundreds of years."</p>
+                      </div>
+                  </div>
+                </div><br>
+
+                <script type="text/javascript">
+                  document.getElementById("surfingTittle").onmouseover = function(){
+                    document.getElementById("surfingTittle").style.fontWeight = "bold";
+                    document.getElementById("surfingTittle").style.fontSize = "xx-large";
+                  }
+        
+                  document.getElementById("surfingTittle").onmouseout = function(){
+                    document.getElementById("surfingTittle").style.fontWeight = "normal";
+                    document.getElementById("surfingTittle").style.fontSize = "normal";
+                  }
+
+                  document.getElementById("divingTittle").onmouseover = function(){
+                    document.getElementById("divingTittle").style.fontWeight = "bold";
+                    document.getElementById("divingTittle").style.fontSize = "xx-large";
+                  }
+        
+                  document.getElementById("divingTittle").onmouseout = function(){
+                    document.getElementById("divingTittle").style.fontWeight = "normal";
+                    document.getElementById("divingTittle").style.fontSize = "normal";
+                  }
+
+                  document.getElementById("coralTittle").onmouseover = function(){
+                    document.getElementById("coralTittle").style.fontWeight = "bold";
+                    document.getElementById("coralTittle").style.fontSize = "xx-large";
+                  }
+        
+                  document.getElementById("coralTittle").onmouseout = function(){
+                    document.getElementById("coralTittle").style.fontWeight = "normal";
+                    document.getElementById("coralTittle").style.fontSize = "normal";
+                  }
+
+                   document.getElementById("fortTittle").onmouseover = function(){
+                    document.getElementById("fortTittle").style.fontWeight = "bold";
+                    document.getElementById("fortTittle").style.fontSize = "xx-large";
+                  }
+        
+                  document.getElementById("fortTittle").onmouseout = function(){
+                    document.getElementById("fortTittle").style.fontWeight = "normal";
+                    document.getElementById("fortTittle").style.fontSize = "normal";
+                  }
+                </script>
+                
+                <footer class="page-footer font-small pt-4">
+                    <div class="container-fluid text-center text-md-left">
+                      <div class="row">
+                        <div class="col-md-4 mb-md-0 mb-3">
+                            <ul class="list-unstyled">
+                              <li><a href="home.html">Home</a></li>
+                              <li><a href="aboutUs.html">About Us</a></li>
+                              <li><a href="thingsToDo.html">Things To Do</a></li>
+                              <li><a href="contactUs.html">Contact Us</a></li>
+                            </ul>
+                          </div>
+                          <div class="col-md-4 mt-md-0 mb-3">
+                              <ul class="list-unstyled">
+                                  <li><a href="services.html">services</a></li>
+                                  <li><a href="accomodation.html">Accomodation</a></li>
+                                  <li><a href="dineIn.html">Dine In</a></li>
+                                  <li><a href="weddings.html">weddings</a></li>
+                              </ul>
+                          </div>
+                          <div class="col-md-4 mb-md-0 mb-3">
+                            <ul class="list-unstyled">
+                             <li><a href="news.html">News</a></li>
+                             <li><a href="promotions.html">Promotions</a></li>
+                             <li><a href="events.html">Events</a></li>
+                             <li><a href="socialMedia.html">Social Media</a></li>
+                            </ul>
+                          </div>
+                
+                      </div>
+                    </div>
+                
+                    <div class="footer-copyright text-center py-3">© 2018 All Rights Reserved. Tharini Manawadu De Silva &nbsp; &nbsp;
+                        Last Update: 04th September 2018  &nbsp; &nbsp;
+                        email: serenebeach@gmail.com
+                      </div>
+                  </footer>
+                 
+       </main> 
+    </body>
+</html>
